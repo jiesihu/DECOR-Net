@@ -1,6 +1,6 @@
 # DECOR-Net
-We design an efficient classification strategy for paper, **CTE-Net: Automatic COVID-19 Lung Infection Segmentation Boosted by Low-level Features and Fine-grained Textures**. 
-Specifically, we design a channel tuning strategy and fine-grain texture enhancing unit to improve COVID-19 infection segmentation.
+Code for paper: **DECOR-NET: A COVID-19 LUNG INFECTION SEGMENTATION NETWORK IMPROVED BY EMPHASIZING LOW-LEVEL FEATURES AND DECORRELATING FEATURES**. 
+Specifically, we design a channel re-weighting strategy and a decorrelation loss to improve COVID-19 infection segmentation.
 The model is built based on the MONAI framework.
 
 ## Usage
@@ -9,8 +9,6 @@ The model is built based on the MONAI framework.
 
 - Linux
 - Python 3.6+
-- PyTorch 1.7.0 or higher
-- CUDA 10.0 or higher 
 
 2. Dependencies.
 - numpy>=1.21.5
@@ -23,14 +21,11 @@ The model is built based on the MONAI framework.
 - json
 - torchmetrics
 
-Or you can run the following code to install dependencies.
-```shell
-pip install -r requirements.txt
-```
 
 ### Dataset
 The COVID-19 Challenge dataset can be found [here](https://covid-segmentation.grand-challenge.org).
-Unzip the COVID-19-20.zip under this directory and run Datapreprocessing_pipeline.ipynb to generated the preprocessed data. The data will be saved in **./COVID19Challenge/data2D**.
+The COVID-19 Challenge dataset can be found [here](https://covid-segmentation.grand-challenge.org).
+
 
 ### Training and Evaluation
 The path of dataset need to be set in **./CTE_Net/CTE-Net.yaml** before training.
