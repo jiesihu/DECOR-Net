@@ -24,6 +24,7 @@ The model is built based on the MONAI framework.
 
 ### Dataset
 The preprocessed COVID-19 Challenge dataset can be found [BaiduDisk](https://pan.baidu.com/s/1fWKTKGIkhsgnbGKx3EdPSQ) (key = tu1h).
+
 The COVID-19 Challenge dataset can be found [here](https://covid-segmentation.grand-challenge.org).
 
 
