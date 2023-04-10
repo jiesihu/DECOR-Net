@@ -23,14 +23,14 @@ The model is built based on the MONAI framework.
 
 
 ### Dataset
-The COVID-19 Challenge dataset can be found [here](https://covid-segmentation.grand-challenge.org).
+The preprocessed COVID-19 Challenge dataset can be found [BaiduDisk](https://pan.baidu.com/s/1fWKTKGIkhsgnbGKx3EdPSQ) (key = tu1h).
 The COVID-19 Challenge dataset can be found [here](https://covid-segmentation.grand-challenge.org).
 
 
 ### Training and Evaluation
 The path of dataset need to be set in **./CTE_Net/CTE-Net.yaml** before training.
 ```
-python train.py --config_path ./CTE_Net/CTE-Net.yaml
+python train.py
 ```
 
 ### Evaluation
